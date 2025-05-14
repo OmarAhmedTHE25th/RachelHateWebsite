@@ -1,4 +1,4 @@
-# RachelHateWebsite# Rachel Hate Website 😤🔥
+# Rachel Hate Website 😤🔥
 
 Welcome to my very first web development project — a humorous and cathartic HTML/CSS website dedicated to expressing some strong opinions about a certain character from the webtoon *Tower of God*... yes, it's Rachel 😬.
 
