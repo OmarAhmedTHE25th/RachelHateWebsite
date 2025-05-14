@@ -1,0 +1,111 @@
+/* style.css */
+@media only screen and (max-width: 768px) {
+    body {
+        padding: 10px;
+        text-align: left;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    p {
+        font-size: 1em;
+        width: 100%;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+
+    ol {
+        padding: 10px;
+    }
+}
+body {
+    background: linear-gradient(to bottom, #300000, #000000);
+    color: #fefefe;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3em;
+    color: #ff2e63;
+    text-shadow: 2px 2px 5px #000;
+}
+
+h2 {
+    margin-top: 40px;
+    color: #ff6f91;
+    text-decoration: underline;
+}
+
+p {
+    font-size: 1.2em;
+    margin: 20px auto;
+    width: 80%;
+}
+#FP{
+    font-style: italic;
+}
+nav{
+    position: sticky;
+top: 0;
+}
+a { /* removes underline */
+  background-color: hsl(19, 197, 170);  
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 8px;
+}
+
+a:hover {
+  color: green;
+  background-color: rgb(174, 255, 165); /* when you hover your mouse */
+}
+#meme:hover {
+    color: inherit;  /* Keeps the color the same as the regular link */
+    background: none;
+}
+
+a:visited {
+  color: rgb(19, 197, 105); /* same as default to stop purple */
+}
+
+ol {
+    list-style-type: decimal;
+    background-color: #1a0000;
+    border: 2px solid #800000;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+    display: inline-block;
+}
+ul{
+     list-style-type: circle;
+    background-color: #1a0000;
+    border: 2px solid #800000;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+  
+}
+
+
+li {
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+img {
+    border: 3px solid #ff2e63;
+    border-radius: 10px;
+    box-shadow: 0 0 10px red;
+    margin-top: 20px;
+    width: 500px;
+    height: auto;
+}
